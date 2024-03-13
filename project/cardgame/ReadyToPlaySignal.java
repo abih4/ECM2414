@@ -19,7 +19,7 @@ public class ReadyToPlaySignal{
     }
 
     /**
-     * This method decreases the counter every tine it is called by a player.
+     * This method decreases the counter every time it is called by a player.
      * When all the player threads have called this method, the counter will be zero,
      * and the main thread will be notified.
      */
