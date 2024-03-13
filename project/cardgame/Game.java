@@ -93,7 +93,7 @@ public class Game{
             } catch (InterruptedException e) {}
         }
 
-        //stop ann the player threads
+        //stop all the player threads
         for(int i=0; i < this.numberOfPlayers; i++){
             this.listOfPlayers.get(i).stopThread();
         }
